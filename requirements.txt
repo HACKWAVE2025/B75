@@ -1,0 +1,11 @@
+
+flask
+twilio
+requests
+python-dotenv
+openai
+transformers
+torch
+gTTS
+geopy
+gunicorn
