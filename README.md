@@ -7,10 +7,10 @@ Hugging Face placeholder, SQLite logging, SMS fallback, nearest-clinic lookup us
 a simple Flask dashboard, Dockerfile and docker-compose for easy deployment.
 
 **IMPORTANT:** This project will make real network/API calls when you provide real API keys.
-Fill `.env` from `.env.example` before running.
+Fill `.env` 
 
 ## Quick Start (Live Mode)
-1. Copy `.env.example` -> `.env` and fill your API keys: TWILIO_ACCOUNT_SID, TWILIO_AUTH_TOKEN, TWILIO_PHONE_NUMBER, OPENAI_API_KEY
+1.  `.env` and fill your API keys: TWILIO_ACCOUNT_SID, TWILIO_AUTH_TOKEN, TWILIO_PHONE_NUMBER, OPENAI_API_KEY
 2. Build & run with Docker (recommended):
    ```bash
    docker-compose build
